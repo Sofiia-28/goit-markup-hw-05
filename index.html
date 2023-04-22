@@ -29,7 +29,7 @@
           >
           <ul class="header-menu list flex-container">
             <li class="header-flex-element">
-              <a href="./index.html" class="link">Studio</a>
+              <a href="./index.html" class="link current">Studio</a>
             </li>
             <li class="header-flex-element">
               <a href="./portfolio.html" class="link">Portfolio</a>
@@ -61,7 +61,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-btn">Order Service</button>
+          <button class="hero-btn" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -428,164 +430,176 @@
         </div>
       </section>
 
-    <!-- Section Customers -->
-    <section class="customers">
-      <div class="container">
-        <h2 class="title">Customers</h2>
-        <ul class="list customers-list">
-          <li class="customers-item">
-            <a
-              class="customers-link link"
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Company's icon"
-            >
-              <svg class="customers-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-item">
-            <a
-              class="customers-link link"
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Company's icon"
-            >
-              <svg class="customers-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo-2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-item">
-            <a
-              class="customers-link link"
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Company's icon"
-            >
-              <svg class="customers-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo-3"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-item">
-            <a
-              class="customers-link link"
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Company's icon"
-            >
-              <svg class="customers-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo-4"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-item">
-            <a
-              class="customers-link link"
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Company's icon"
-            >
-              <svg class="customers-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo-5"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-item">
-            <a
-              class="customers-link link"
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Company's icon"
-            >
-              <svg class="customers-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo-6"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
+      <!-- Section Customers -->
+      <section class="customers">
+        <div class="container">
+          <h2 class="title">Customers</h2>
+          <ul class="list customers-list">
+            <li class="customers-item">
+              <a
+                class="customers-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Company's icon"
+              >
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a
+                class="customers-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Company's icon"
+              >
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a
+                class="customers-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Company's icon"
+              >
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a
+                class="customers-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Company's icon"
+              >
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a
+                class="customers-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Company's icon"
+              >
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a
+                class="customers-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Company's icon"
+              >
+                <svg class="customers-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo-6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
       <div class="container footer-container">
-          <div class="footer-section">
-            <a href="./index.html" class="link logo"
-              >Web<span class="footer-logo">Studio</span></a
-            >
-            <p class="footer-desc">
-              Increase the flow of customers and sales for your business with
-              digital marketing &#x26; growth solutions.
-            </p>
-          </div>
-          <div class="footer-socials">
-            <p class="footer-socials-title">Social media</p>
-            <ul class="footer-socials-list list">
-              <li class="footer-socials-item">
-                <a
-                  class="footer-socials-link link"
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Instagram icon"
-                >
-                  <svg class="footer-socials-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-socials-item">
-                <a
-                  class="footer-socials-link link"
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Twitter icon"
-                >
-                  <svg class="footer-socials-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-socials-item">
-                <a
-                  class="footer-socials-link link"
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Facebook icon"
-                >
-                  <svg class="footer-socials-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-socials-item">
-                <a
-                  class="footer-socials-link link"
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Linkedin icon"
-                >
-                  <svg class="footer-socials-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
+        <div class="footer-section">
+          <a href="./index.html" class="link logo"
+            >Web<span class="footer-logo">Studio</span></a
+          >
+          <p class="footer-desc">
+            Increase the flow of customers and sales for your business with
+            digital marketing &#x26; growth solutions.
+          </p>
+        </div>
+        <div class="footer-socials">
+          <p class="footer-socials-title">Social media</p>
+          <ul class="footer-socials-list list">
+            <li class="footer-socials-item">
+              <a
+                class="footer-socials-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram icon"
+              >
+                <svg class="footer-socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a
+                class="footer-socials-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter icon"
+              >
+                <svg class="footer-socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a
+                class="footer-socials-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook icon"
+              >
+                <svg class="footer-socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a
+                class="footer-socials-link link"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Linkedin icon"
+              >
+                <svg class="footer-socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
+    <!-- Modal window -->
+    <div class="blackdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-button" type="button" data-modal-close>
+          <svg class="modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
